@@ -190,7 +190,7 @@ nav.scroll {
   
 }
 
-.scroller:focus-within .item,
+/* .scroller:focus-within .item,
 .scroller:hover .item {
   transform: translateX(-25%);
   z-index: 2;
@@ -200,7 +200,7 @@ nav.scroll {
 .tech:hover .item {
   transform: translateX(-25%);
   z-index: 2;
-}
+} */
 
 .item:focus ~ .item,
 .item:hover ~ .item {
