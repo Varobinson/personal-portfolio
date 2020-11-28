@@ -1,12 +1,5 @@
-// window.onbeforeunload = (function(){
-//   location.reload();
-//   location.href =  'http://127.0.0.1:5500/index.html'
-  
-// }) 
-// $( window ).load(function(){
-//   window.location.href = 'http://127.0.0.1:5500' ;      
-//   }); 
-window.addEventListener('unload', function(){
+
+window.addEventListener('onload', function(){
   location.reload();
   location.href =  'http://127.0.0.1:5500'
 
