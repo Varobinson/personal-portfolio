@@ -9,3 +9,5 @@ window.onscroll = () => {
     const nav = document.querySelector('.navbar');
     if(this.scrollY <= 1) nav.className = ' navbar fixed-top navbar-expand-lg'; else nav.className = ' scroll navbar fixed-top navbar-expand-lg';
   };
+
+  
