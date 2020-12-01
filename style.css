@@ -16,6 +16,7 @@ body{
     min-height: 100vh;
     width: 100%;
     /* font-family: '"Netflix Sans Icon" ; */
+    overflow-x: hidden !important;
 }
 nav{
     background-color: #14141400!important;
@@ -39,7 +40,7 @@ svg{
 }
 
 .nav-link{
-    color: rgb(228, 225, 225) !important;
+  color: rgb(228, 225, 225) !important;
     
 }
 
@@ -47,7 +48,7 @@ svg{
     color:white !important;
 }
 .nav-link:hover{
-    color: rgba(198, 194, 194, 0.701) !important;
+  color: rgba(198, 194, 194, 0.701) !important;
     
 }
 
@@ -68,6 +69,10 @@ nav.scroll {
     position: relative;
    
 } */
+
+main{
+  width: 100vw !important;
+}
 
 .container{
     width: 100vw !important;
@@ -105,7 +110,7 @@ nav.scroll {
     /* object-fit: fill; */
     filter: brightness(80%);
     flex-shrink: 0;
-    max-width: 100%; 
+    width: 100vw; 
     /* min-height: 100%; */
     margin: 0  
 }
@@ -264,10 +269,13 @@ nav.scroll {
     margin:0
 }
 
+.MagicScroll{
+  padding:10;
+}
 
 @media screen and (max-width: 985px) {
-    body {
-      
+    main {
+      overflow-x: hidden !important;
     }
     .main img{
         position: relative;
@@ -334,11 +342,13 @@ nav.scroll {
   font-size:15px;
   line-height:24px;
   color:#737373;
+  
 }
 
 .site-footer ul li{
 
     list-style-type: none;
+    
 }
 .site-footer hr
 {
@@ -498,14 +508,27 @@ nav.scroll {
 }
 
 .techStack{
-    display:grid;
-    place-items: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 
 }
+.row1{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.row{
+
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
 .con{
-    font-size:8rem;
+    font-size:6rem;
     color:#737373;
-    margin: 3px
+    margin: 3px;
 }
 
 
