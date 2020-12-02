@@ -182,6 +182,10 @@ main{
     color: #E50914 !important;
 }
 
+.label2{
+  margin-top: 28px !important;
+}
+
 .sec2{
     width: 100vw;
     display: grid;
