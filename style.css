@@ -246,6 +246,20 @@ main{
   margin-bottom: 20px;
 }
 
+@media screen and (max-width: 480px) {
+  .dropZone{
+    display: block;
+  }
+  .dropZone2{
+    display: block;
+
+  }
+  .dropZone3{
+    background-color:rgba(94, 94, 94, 0.331) !important;
+    display: block;
+    
+  }
+}
 
 .projectBtn{
   margin: 5px;
