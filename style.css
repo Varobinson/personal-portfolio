@@ -198,7 +198,7 @@ main{
     margin-top: -30px !important;
     display: flex;
     flex-wrap: wrap;
-    
+    transition: transform 500ms;
 }
  .tech{
     margin-top: 6%;
@@ -213,9 +213,61 @@ main{
   position: relative;
   display: block;
   /* flex: 1 1 0px; */
-  transition: transform 500ms;
+  transition: transform 600ms;
   
 }
+.item:hover {
+  transition: all 0.8s !important;
+  
+}
+
+.dropZone{
+  background-color:rgba(94, 94, 94, 0.331) !important;
+  /* display: none; */
+  padding: 18px;
+  display: none;
+  transition: transform 500ms;
+  margin-bottom: 20px;
+}
+.dropZone2{
+  background-color:rgba(94, 94, 94, 0.331) !important;
+  /* display: none; */
+  padding: 10px;
+  display: none;
+  transition: transform 500ms;
+  margin-bottom: 20px;
+}
+.dropZone3{
+  background-color:rgba(94, 94, 94, 0.331) !important;
+  /* display: none; */
+  padding: 10px;
+  display: none;
+  transition: transform 500ms;
+  margin-bottom: 20px;
+}
+
+
+.projectBtn{
+  margin: 5px;
+  
+}
+
+.linkBtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bud {
+  
+  background: white;
+}
+.bud1 {
+  
+  width: 10vw ;
+}
+
+
 
 /* .scroller:focus-within .item,
 .scroller:hover .item {
@@ -229,10 +281,10 @@ main{
   z-index: 2;
 } */
 
-.item:focus ~ .item,
+/* .item:focus ~ .item,
 .item:hover ~ .item {
   transform: translateX(20%);
-}
+} */
 
 
 .scroller .item:focus,
@@ -249,16 +301,15 @@ main{
 }
 
 
-.item:hover ~ .item {
+/* .item:hover ~ .item {
     transform: translateX(20%);
     
-  }
+  } */
 
 .item img {
   display: block;
   max-width: 100%;
-  width: 30rem;
-  
+ 
 
 }
 .tech img {
@@ -269,9 +320,7 @@ main{
    
 }
 
-.item {
-    margin:0
-}
+
 
 .MagicScroll{
   padding:10;
@@ -311,6 +360,7 @@ main{
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
+        transition: all 0.8s !important;
     }
 
     .btn{
@@ -515,7 +565,7 @@ main{
     display:flex;
     align-items: center;
     justify-content: center;
-
+   
 }
 .row1{
     display:flex;
@@ -528,11 +578,13 @@ main{
 
   margin-left: 0 !important;
   margin-right: 0 !important;
+  
 }
 .con{
     font-size:6rem;
     color:#737373;
-    margin: 3px;
+    margin: 10px;
+
 }
 
 
