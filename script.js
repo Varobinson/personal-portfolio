@@ -25,8 +25,4 @@ projects.forEach(project =>{
 
 })
  
-menuItems.forEach(item =>{
-  item.addEventListener('click', function(e){
-    
-  })
-})
+
