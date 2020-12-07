@@ -13,11 +13,7 @@ window.onscroll = () => {
 let projects = document.querySelectorAll('.item')
 let menuItems = document.querySelectorAll('.nav-link')
 
-projects.forEach(project =>{
-  project.addEventListener('mouseenter',function(e){
-    e.target.querySelector(".dropZone").classList.add('active')
-     
-  })
+$(window).width() > 570 ?  projects.forEach(project =>{project.addEventListener('mouseenter',function(e){e.target.querySelector(".dropZone").classList.add('active')})
   project.addEventListener('mouseleave',function(e){
     e.target.querySelector(".dropZone").classList.remove('active')
      $('#navbarText').collapse('hide')
