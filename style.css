@@ -223,6 +223,33 @@ main{
   
 }
 
+
+
+@media screen and (max-width:1025px ) and (min-width:580px ){
+  .infoBtn{
+    width:100%;
+    background: #E6050E;
+    color: #FFFFFF;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    margin:0;
+    padding: 0;
+    display: inline-block !important;
+    cursor: pointer;
+  }
+  
+}
+
+
+.infoBtn{
+  display: none;
+}
+
+
+
+
+
 .dropZone{
   background-color:rgb(45, 44, 44) !important;
   /* width: 27.6rem; */
@@ -241,10 +268,10 @@ main{
   position : absolute ;
 }
 
-@media screen and (max-width: 480px) {
+@media (max-width: 580px) {
   .dropZone{
     display: block;
-    position: static;
+    
   }
 }
 

@@ -14,6 +14,7 @@ window.onscroll = () => {
 
 let projects = document.querySelectorAll('.item')
 let menuItems = document.querySelectorAll('.nav-link')
+let infoBtn = document.querySelectorAll('.infoBtn')
 
 $(window).width() > 570 ?  projects.forEach(project =>{
   project.addEventListener('mouseenter',function(e){
@@ -28,3 +29,8 @@ $(window).width() > 570 ?  projects.forEach(project =>{
 }): ''
  
 
+// infoBtn.forEach(btn =>{
+//   btn.addEventListener('click', function(e){
+    
+//   })
+// })
