@@ -1,8 +1,3 @@
-/* NETFLIX RED
-PANTONE: PMS 1795 C;
-HEX COLOR: #E50914;
-RGB: (229,9,20) */
-
 *{
     padding: 0;
     margin: 0;
@@ -15,7 +10,6 @@ body{
     color: white ;
     min-height: 100vh;
     width: 100%;
-    /* font-family: '"Netflix Sans Icon" ; */
     overflow-x: hidden !important;
 }
 nav{
@@ -56,7 +50,6 @@ svg{
     background-color: #14141446 !important;
 }
 
-
 nav.scroll {
     background-color: #141414!important;
     color: white !important;
@@ -65,18 +58,12 @@ nav.scroll {
 
 /*? ----------section-------- */
 
-/* section{
-    position: relative;
-   
-} */
-
 main{
   width: 100vw !important;
 }
 
 .container{
     width: 100vw !important;
-    /* overflow: hidden; */
     max-height:100%;
     position: relative;
     margin: 0;
@@ -107,11 +94,9 @@ main{
     display: block;
     flex: 1 1 0px;
     height: auto;
-    /* object-fit: fill; */
     filter: brightness(80%);
     flex-shrink: 0;
     width: 100vw; 
-    /* min-height: 100%; */
     margin: 0  
 }
 
@@ -193,7 +178,6 @@ main{
     z-index: 2;
 }
 
-
 .scroller{
     margin-top: -30px !important;
     display: flex;
@@ -214,7 +198,6 @@ main{
 .item {
   position: relative;
   display: block;
-  /* flex: 1 1 0px; */
   transition: all 0.8s ease !important;
   
 }
@@ -222,8 +205,6 @@ main{
   transition: all 0.8s ease !important;
   
 }
-
-
 
 @media screen and (max-width:1025px ) and (min-width:580px ){
   .infoBtn{
@@ -241,18 +222,12 @@ main{
   
 }
 
-
 .infoBtn{
   display: none;
 }
 
-
-
-
-
 .dropZone{
   background-color:rgb(45, 44, 44) !important;
-  /* width: 27.6rem; */
   padding: 18px;
   display: none;
   transition: transform 1500ms;
@@ -287,58 +262,28 @@ main{
 }
 
 
-
-
-/* .scroller:focus-within .item,
-.scroller:hover .item {
-  transform: translateX(-25%);
-  z-index: 2;
-}
-
-.tech:focus-within .item,
-.tech:hover .item {
-  transform: translateX(-25%);
-  z-index: 2;
-} */
-
-/* .item:focus ~ .item,
-.item:hover ~ .item {
-  transform: translateX(20%);
-} */
-
-
 .scroller .item:focus,
 .scroller .item:hover {
   transform: scale(1.1);
   z-index: 3;
- 
 }
+
 .tech .item:focus,
 .tech .item:hover {
   transform: scale(1.1);
-  
- 
 }
 
-
-/* .item:hover ~ .item {
-    transform: translateX(20%);
-    
-  } */
 
 .item iframe {
   display: block;
   max-width: 100%;
   max-height: 300px;
- 
-
 }
 .tech iframe {
   display: block;
   width: 18rem;
   margin-left: 0;
-  margin-right: 0;
-   
+  margin-right: 0;   
 }
 
 
@@ -355,11 +300,9 @@ main{
         display: block;
         flex: 1 1 0px;
         height: auto;
-        /* object-fit: fill; */
         filter: brightness(80%);
         flex-shrink: 0;
         max-width: 100vw; 
-        /* min-height: 100%; */
         margin: 0  
     }
     .main .content {
@@ -403,13 +346,9 @@ main{
 .tech .item:focus,
 .tech .item:hover {
   transform: scale(1.2);
-  
  
-}
   }
-
-
-
+}
 
   /* footer */
   .site-footer
@@ -423,8 +362,7 @@ main{
 }
 
 .site-footer ul li{
-
-    list-style-type: none;
+  list-style-type: none;
     
 }
 .site-footer hr
@@ -594,8 +532,7 @@ main{
 }
 .tech .item:focus,
 .tech .item:hover {
-  transform: scale(1);
-  
+  transform: scale(1);  
  
 }
 }
